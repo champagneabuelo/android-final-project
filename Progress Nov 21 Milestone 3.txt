@@ -1,0 +1,9 @@
+CS 4720 Final Project
+Dennis Huang (dlh4fx)
+Jason Valenzuela (jev4zs)
+
+Since the previous milestone, the web service, GPS, and other hardware sensor (light sensor) have been implemented. With the web service, the user can now skip forward / backward on the current playlist by tapping the two buttons next to the play button. Tapping on the “i” icon will bring up a playlist’s info page, and at the bottom of the page, the user can play a song by tapping on the list of songs in the playlist. 
+
+The GPS was used to calculate the user’s speed for this app. After the app is first installed and launched, a screen will ask the user for the app’s permission to use location features. When the user crosses a certain speed threshold, the app will display an alert, asking if the user wishes to start playing the Fast Playlist. If the user goes from moving quickly to slowly, the alert will ask if the user wishes to play the Slow Playlist. The app checks the user’s speed every 10 seconds. This time was decided best for showcasing the app, but the final build may be longer to avoid annoying the user. Note: The GPS works a lot better when outdoors and not inside a building. 
+
+The light sensor was used to see whether the user was in a lit or dark area. When a certain amount of light is detected by the device, an alert will ask the user if he wants to play the Day Playlist. If it falls below the threshold, the alert will ask if the user wants to play the Night Playlist. The light sensor feature still needs some work. The light sensor constantly checks the light values every second, which bombards the user with alerts. To avoid this, the user should say “yes” to Day Playlist for now. 

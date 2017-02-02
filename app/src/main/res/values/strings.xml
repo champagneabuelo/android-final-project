@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Move-N-Groove</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_item_info">Day Theme</string>
+    <string name="large_textDay">
+        "This is the Day Theme. The tracks in this playlist have been carefully selected based on a few qualities as listed below. Tap on a song to start playing it.\n\n"
+
+        "\t\t\t<b>Energetic</b>"
+
+        "Some tracks here are upbeat to keep you awake. This can help with a number of different activities throughout the day, such as exercising, studying, and relaxing. It is assumed that the day is bright and sunny, so the songs here reflect a positive mood. This mood with the upbeat tempo aims to get the users to enjoy themselves."
+
+        "<b>Easy listening</b>"
+
+        "Other tracks here have been selected because they are not interrupting. This means that the songs all have a constant volume level, and there are no sudden changes in the direction of the song. The topics of the songs are also acceptable to listen to in a family setting. This playlist was meant to allow listeners to simply enjoy the melodies and relax."
+
+        "<b>Simple beat</b>"
+
+        "Most tracks have been selected due to the fact that their beats are easy to follow along. This allows the playlist to be played at gatherings where people may be dancing. The majority of the people there will be able to dance to the rhythm, and the songs will not change tempo suddenly to throw people off."
+
+        "<b>Songs in Playlist</b>"
+
+
+    </string>
+    <string name="large_textNight">
+       "This is the Night Theme. The tracks in this playlist have been carefully selected based on a few qualities as listed below. Tap on a song to start playing it.\n\n"
+
+        "\t\t\t<b>Slow Tempo</b>"
+
+        "The tracks are all slow. The goal is to help a listener fall asleep, and slow tracks help listeners relax. The songs will have light beats and soft melodies. The mood created by these tracks reflect the end of a long day."
+
+        "<b>Soothing</b>"
+
+        "None of the melodies will be cacophonous or noticeably loud. Many of the melodies will be soft and firm, but they will not contain any surprises. An emphasis has been placed on clean sounding instruments so that users will not spend too much time analyzing the timbre of an instrument. This avoids creating too much activity in a listener\'s mind."
+
+        "<b>Atmospheric</b>"
+
+        "Many of these tracks have sections of instrumentals. Depending on the audio effects present, this creates an audio atmosphere that is subjective to a listener\'s imagination. The tracks are longer than typical songs, so that there is plenty of time for a listener to imagine an atmosphere and then contemplate on it."
+
+        "<b>Songs in Playlist</b>"
+    </string>
+    <string name="large_textFast">
+         "This is the Fast Theme. The tracks in this playlist have been carefully selected based on a few qualities as listed below. Tap on a song to start playing it.\n\n"
+
+        "\t\t\t<b>Fast Tempo</b>"
+
+        "The tracks are all fast. The point of this playlist is to get the listener in a mindset of moving quickly and accomplishing a task. This is  particularly applicable in an environment that is meant for exercise. The tracks have an upbeat tempo, accompanied with a melody that also is moving at a fast rate."
+
+        "<b>Inspiring</b>"
+
+        "The tracks have been selected due to the ability to create a mindset that encourages the listeners to push themselves. An example of this could be the final stretch of a race, when the listener runs faster to get a better time. Some tracks can be played before a big moment,  such as a sports game. The listeners can then focus and get excited for the opportunity to perform well in the game."
+
+        "<b>Loud</b>"
+
+        "The volume of these tracks will be loud. By doing this, the listener is more prone to listen to the lyrics of the songs and focus on a what he or she wants to accomplish. The melodies of the instruments on the tracks are turned up, including audio effects. The listener will be motivated by the sounds that are present."
+
+        "<b>Songs in Playlist</b>"
+    </string>
+    <string name="large_textSlow">
+        "This is the Slow Theme. The tracks in this playlist have been carefully selected based on a few qualities as listed below. Tap on a song to start playing it.\n\n"
+
+        "\t\t\t<b>Slow Tempo</b>"
+
+        "The tempo of the tracks are all slow. The purpose of this playlist is for listeners to simply relax and feel at ease. This can include meditation or taking some time to process thoughts. The slow beats avoid interrupting a listener\'s thoughts, so it is particularly useful in a time of concentration."
+
+        "<b>Deep Focus</b>"
+
+        "The nature of the tracks are ideal for a studying situation. Many of the tracks do not have vocal lyrics in them to allow the user to work without following the words of a song. The melodies that exist are enough to block out other sounds in the environment a listener is in,  so the listener will not be distracted by other sources."
+
+        "<b>Harmony</b>"
+
+        "The melodies of the instruments go well in each track. The point of the playlist is to avoid distraction and hard feelings, so all melodies are resolved at one point in the song. This creates an atmosphere that is easy-going and appealing. The timbre of the instruments are soft to avoid being too harsh."
+
+        "<b>Songs in Playlist</b>"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_night_info">Night Theme</string>
+    <string name="title_activity_fast_info">Fast Theme</string>
+    <string name="title_activity_slow_info">Slow Theme</string>
+</resources>

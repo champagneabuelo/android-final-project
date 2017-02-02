@@ -1,0 +1,14 @@
+Dennis Huang dlh4fx
+Jason Valenzuela jev4zs 
+
+CS 4720 Final Project
+
+The project will be done on Android. The app plays music from a Spotify playlist, and based on user actions, the app can suggest different playlists for the user to listen to. For example, if the app detects that the user is running by use of the accelerometer, it can suggest the user to play the “Fast Playlist” or “Workout Playlist”. This can enhance the experience of the action for the user. 
+
+The first screen that the user will see will be the splash page. This will include a logo and the name of the app. Once the app is loaded, the user will be presented with a login screen. Since this app uses Spotify, the user will be required to login with a Spotify account or create one. This data can be stored on the device to avoid having the user login every time the app is started. 
+
+The next screen that will be shown is the main page. The main page will have all of the playlists displayed, and the user can then start a playlist by tapping on the row. Once a playlist is started, a play icon will appear on the row, indicating which playlist is currently being played. The user can then stop the music by tapping on the row again. 
+
+The user can see more about the playlist by tapping on the info icon on the row. This brings up another screen that has a unique picture related to the theme, a description of the playlist, a list of other songs in the playlist, and music control buttons. The back button allows the user to return to the main page. 
+
+When the app detects a specific user action, the app will send an alert to the screen. The alert will indicate that the user is performing an action, and there is a playlist that may enhance the user’s experience. It will then ask if the user will like to switch to that playlist or not. If yes is pressed, the app will then start to play music from that playlist. Actions that incite these alerts can include moving fast (accelerometer), arriving in a location of interest (GPS), time of day, and weather related. There will be some kind of control for the alerts, such that the user will not be constantly bombarded with notifications to the point of annoyance. 

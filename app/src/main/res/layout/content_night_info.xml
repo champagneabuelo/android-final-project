@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dennis.androidfinal.NightInfo"
+    tools:showIn="@layout/activity_night_info">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/night"
+            android:id="@+id/nightImage"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_textNight" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#ECEFF1"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Buried Alive Interlude by Drake and Kendrick Lamar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jimi"
+                    android:clickable="true"
+                    android:onClick="playKen"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#CFD8DC"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Comfortably Numb by Pink Floyd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chili"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:clickable="true"
+                    android:onClick="playPink"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#B0BEC5"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Forget It by Breaking Benjamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ava"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:clickable="true"
+                    android:onClick="playBreak"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#90A4AE"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Karaoke by Drake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/tdd"
+                    android:clickable="true"
+                    android:onClick="playDrake"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#78909C"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Porcelain by Red Hot Chili Peppers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/eagles"
+                    android:clickable="true"
+                    android:onClick="playChili"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#607D8B"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Sleep Like a Baby Tonight by U2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/oasis"
+                    android:clickable="true"
+                    android:onClick="playU2"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#546E7A"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Sometimes You Can't Make It On Your Own by U2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/fray"
+                    android:textAlignment="center"
+                    android:clickable="true"
+                    android:onClick="playU22"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#455A64"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="The Moon Atomic by Angels and Airwaves"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/ava2"
+                    android:clickable="true"
+                    android:onClick="playAva"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#37474F"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Weatherman by +44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/kol"
+                    android:clickable="true"
+                    android:onClick="playPlus"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:background="#263238"
+                android:minHeight="100px"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:text="Wish You Were Here by Pink Floyd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Material.Large"
+                    android:id="@+id/pink"
+                    android:clickable="true"
+                    android:onClick="playPink2"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:text="Back"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/button"
+            android:clickable="true"
+            android:onClick="finish"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
