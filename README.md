@@ -1,4 +1,4 @@
-# final-project-girafarig
+# CS 4720 Final Project
 Dennis Huang (dlh4fx)
 Jason Valenzuela (jev4zs)
 
