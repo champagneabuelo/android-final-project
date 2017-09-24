@@ -2,7 +2,7 @@
 Dennis Huang (dlh4fx)
 Jason Valenzuela (jev4zs)
 
-# Features as of 11/21/2016
+# Features
 
 ### Login Screen
 The first screen the user will see is a login page. It has information that tells the user what is needed to work the app. The name and date fields are stored on the device, so the next time the user starts the app, the fields will already be filled out. 
